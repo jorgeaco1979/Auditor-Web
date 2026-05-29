@@ -143,7 +143,7 @@ def gerar_excel_memoria(df, agrupado_codigo, agrupado_empresa, agrupado_cruzado)
     return output.getvalue()
 
 # --- INTERFACE WEB (FRONT-END) ---
-st.title("📊 Auditor Médico de Faturação - PMDF")
+st.title("📊 Auditor PDF")
 st.markdown("Faça o upload do relatório da Benner (PDF) para extração automática e cruzamento de dados.")
 
 ficheiro_carregado = st.file_uploader("Arraste e solte o ficheiro PDF aqui", type="pdf")
